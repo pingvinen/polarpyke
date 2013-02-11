@@ -33,9 +33,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Parsing\EbnfParser.cs" />
+    <Compile Include="Parsing\Grammar.cs" />
+    <Compile Include="Parsing\Ebnf\Token.cs" />
+    <Compile Include="Parsing\Ebnf\TokenType.cs" />
+    <Compile Include="Parsing\Ebnf\EbnfTokenizer.cs" />
+    <Compile Include="EbnfSyntaxException.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <Folder Include="Properties\" />
+    <Folder Include="Parsing\" />
+    <Folder Include="Parsing\Ebnf\" />
+    <Folder Include="Parsing\Ebnf\Extensions\" />
   </ItemGroup>
 </Project>

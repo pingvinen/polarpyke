@@ -41,4 +41,12 @@
       <Name>lib</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Parsing\" />
+    <Folder Include="Parsing\Ebnf\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Parsing\Ebnf\TokenizerTests.cs" />
+    <Compile Include="Parsing\Ebnf\TokenTests.cs" />
+  </ItemGroup>
 </Project>
